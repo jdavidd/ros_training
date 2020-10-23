@@ -1,0 +1,22 @@
+<launch>
+
+  <node pkg ="my_turtlebot_actions"
+        type="action_server.py"
+        name="record_odom_action_server_node"
+        output="screen">
+  </node>
+  
+  <node pkg ="my_turtlebot_topics"
+        type="crash_detector_server.py"
+        name="crash_direction_service_server"
+        output="screen">
+  </node>
+
+  <node pkg ="my_turtlebot_main"
+        type="main.py"
+        name="turtlebot_main_node"
+        output="screen">
+  </node>
+
+
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="exercise_robot_control" type="control.py" name="robot_control"  output="screen">
+    </node>
+</launch>

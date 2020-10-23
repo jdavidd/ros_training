@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="my_custom_srv_msg_pkg_codrut" type="MoveBB8.py" name="move_class"  output="screen">
+    </node>
+</launch>

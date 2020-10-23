@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg ="my_examples_pkg"
+        type="simple_service_server.py"
+        name="move_circle"
+        output="screen">
+  </node>
+
+
+</launch>

@@ -1,0 +1,18 @@
+<launch>
+
+  <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
+
+  <node pkg ="iri_wam_aff_demo"
+        type="iri_wam_aff_demo_node"
+        name="iri_wam_aff_demo"
+        output="screen">
+  </node>
+
+   <node pkg="unit_4_services_codrut"
+         type="exercise_4_1.py"
+         name="trajectory_file_robot"
+         output="screen">
+    </node>
+
+
+</launch>

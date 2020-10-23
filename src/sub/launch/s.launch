@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="sub" type="sub.py" name="O" output="screen" />
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="actions_quiz" type="drive_drone.py" name="action_msg" output="screen"/>
+</launch>
